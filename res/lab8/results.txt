@@ -1,0 +1,22 @@
+т: 20
+m: -0.28, 0.66
+sigma: 0.76, 1.46
+т: 100
+m: -0.08, 0.30
+sigma: 0.84, 1.11
+c:\Users\maanick\source\repos\lab5-8\lab8.py:29: UserWarning: color is redundantly defined by the 'color' keyword argument and the fmt string "ro-" (-> 
+color='r'). The keyword argument will take precedence.
+  ax3.plot(m_all[0], [1, 1], 'ro-', label='"m" interval n = 20', color = "violet")
+c:\Users\maanick\source\repos\lab5-8\lab8.py:30: UserWarning: color is redundantly defined by the 'color' keyword argument and the fmt string "bo-" (-> 
+color='b'). The keyword argument will take precedence.
+  ax3.plot(m_all[1], [1.1, 1.1], 'bo-', label='"m" interval n = 100', color = "skyblue")
+c:\Users\maanick\source\repos\lab5-8\lab8.py:35: UserWarning: color is redundantly defined by the 'color' keyword argument and the fmt string "ro-" (-> 
+color='r'). The keyword argument will take precedence.
+  ax4.plot(s_all[0], [1, 1], 'ro-', label='sigma interval n = 20', color = "violet")
+c:\Users\maanick\source\repos\lab5-8\lab8.py:36: UserWarning: color is redundantly defined by the 'color' keyword argument and the fmt string "bo-" (-> 
+color='b'). The keyword argument will take precedence.
+  ax4.plot(s_all[1], [1.1, 1.1], 'bo-', label='sigma interval n = 100', color = "skyblue")
+m asymptotic :-0.25, 0.63
+sigma asymptotic: 0.76, 1.60
+m asymptotic :-0.09, 0.31
+sigma asymptotic: 0.86, 1.09
